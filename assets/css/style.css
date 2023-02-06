@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background-color: hsl(235deg, 16%, 14%);
   background-image: url("../images/bg-stars.svg"), url("../images/pattern-hills.svg");
@@ -14,18 +15,12 @@ body {
   font-family: "Red Hat Text", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .wrapper {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
