@@ -43,9 +43,9 @@ body {
   margin: 0 auto;
   max-width: 1440px;
 
-  @include mobile {
-    max-width: 100%;
-  }
+  // @include mobile {
+  //   max-width: 100%;
+  // }
 }
 
 .counter {
